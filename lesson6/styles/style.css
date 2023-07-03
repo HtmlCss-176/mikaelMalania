@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: cadetblue;
+    justify-content: center;
+}
+
+.flex-container div {
+    background-color: aquamarine;
+    margin: 10px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 75px;
+    padding: 30px;
+}

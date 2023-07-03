@@ -1,0 +1,21 @@
+#tahomaFont {
+    font-family: Tahoma, sans-serif;
+    color: brown;
+}
+
+@font-face {
+    font-family: geoFont;
+    src: url('/fonts/3d_unicode.ttf');
+}
+
+#importedGeoText {
+    font-family: geoFont;
+}
+
+#modifiedPTag {
+   font-weight: bold;
+   font-size: 24px;
+   text-transform: lowercase;
+   line-height: 50px;
+   text-decoration: none;
+}

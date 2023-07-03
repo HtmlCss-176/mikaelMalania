@@ -1,0 +1,38 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #7e7c7c;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+.card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.card .text > button:hover {
+    background: #D9D9D9;
+    color: #DF9C9C;
+}
+
+.card .text > button:active {
+  
+    cursor: pointer;
+}
