@@ -1,0 +1,45 @@
+.transformProperty {
+    margin: 20px;
+}
+
+#image1 {
+    margin: 70px;
+    transform: rotate(20deg);
+    /* transform: rotateX('angle');
+    transform: rotateY('angle');
+    transform: rotateZ('angle'); */
+
+}
+
+#image2  {
+    margin: 70px;
+    transform: skewX(20deg);
+    transform: skewY(20deg);
+    /* transform: skew(20deg, 20deg); */
+}
+
+#image3 {
+    transform: scaleX(3.5);
+}
+
+h3 {
+    /* text-shadow: 2px 2px rgb(108, 29, 29); */
+    /* text-shadow: 0 0 3px #fff000, 0 0 5px #0000FF, 0 0 5px #ff9100; */
+    color: rgb(126, 165, 42);
+    text-shadow: -1px 0 rgb(228, 163, 9), 0 1px rgb(228, 163, 9), 1px 0 rgb(228, 163, 9), 0 -1px rgb(228, 163, 9);
+
+}
+
+.boxShadowExample {
+    background-color: #7aa517ac;
+    box-shadow: 10px 10px 8px #0f6b15;
+    /* box-shadow: 10px 10px 8px   #0f6b15, 10px 10px  #4d86b4; */
+    padding: 10px;
+    border-radius: 20px;
+}
+
+body {
+    background-image: url("https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/4:3/pass/gettyimages-1146431497.jpg");
+    /* background-size: 300px 100px; */
+    /* background-repeat: repeat; */
+}

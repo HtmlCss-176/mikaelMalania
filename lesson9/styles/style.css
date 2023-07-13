@@ -1,0 +1,166 @@
+header nav a {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: red;
+    font-size: 24px;
+}
+
+header nav {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.quickLinks {
+    background-color: rgb(220, 238, 167);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+.dividerLine {
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    background-color: rgb(43, 37, 37);
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.socials {
+    background-color: rgb(220, 238, 167);
+    padding-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+} 
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: brown;
+}
+
+/* mobile mode */
+@media (max-width: 480px) {
+    header nav a {
+        font-size: 12px;
+    }
+
+    header nav {
+        background-color: rgb(246, 255, 127);
+    }
+
+    header nav a:hover {
+        font-size: 16px;
+    }
+}
+
+/* tablet mode */
+@media (min-width: 481px) and (max-width: 768px) {
+    header nav a {
+        font-size: 14px;
+    }
+
+    header nav a:hover {
+        font-size: 16px;
+    }
+
+    section {
+        display: block;
+    }
+
+}
+
+/* desktop mode */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header nav a {
+        font-size: 16px;
+    }
+
+    header nav a:hover {
+        font-size: 18px;
+    }
+
+    section {
+        display: block;
+    }
+
+    p {
+        color: rgb(42, 93, 165);
+    }
+
+    .footerContent {
+        display: block;
+    }
+}
+
+/* large desktop mode */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    header nav a {
+        font-size: 20px;
+    }
+
+    header nav a:hover {
+        font-size: 24px;
+    }
+
+    section {
+        display: block;
+    }
+
+    p {
+        color: rgb(42, 155, 165);
+    }
+
+    .footerContent {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 1201px) {
+    header nav a {
+        font-size: 24px;
+    }
+
+    header nav a:hover {
+        font-size: 28px;
+    }
+
+    section {
+        display: flex;
+    }
+
+    p {
+        color: rgb(165, 42, 95);
+    }
+
+    .footerContent {
+        display: flex;
+    }
+}

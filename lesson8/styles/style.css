@@ -1,0 +1,71 @@
+.container input {
+    width: 220px;
+    height: 40px;
+    border: 2px solid #cd3535;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container button {
+    width: 20%;
+    padding: 10px;
+    background: rgb(20, 167, 130);
+    border: 0;;
+    font-size: 20px;
+    color: azure;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container button:hover {
+    background: #cd3535;
+    color: #cd35c8;
+    transition: background 2s, color 2s;
+    position: relative;
+}
+
+.timingFunction {
+    width: 100px;
+    height: 100px;
+    background: rgb(68, 255, 143);
+    transition: width 2s;
+}
+
+.timingFunction:hover {
+    width: 500px;
+}
+
+.linerEffect {
+    transition-timing-function: linear;
+}
+
+#easeEffect {
+    transition-timing-function: ease;
+}
+
+#easeInEffect {
+    transition-timing-function: ease-in;
+}
+
+#easeOutEffect {
+    transition-timing-function: ease-out;
+}
+
+#easeInOutEffect {
+    transition-timing-function: ease-in-out;
+}
+
+body {
+    background-image: url('https://png.pngtree.com/element_our/png/20180803/vector-seamless-pattern--modern-stylish-texture--repeating-geometric-background--linear-graphic-design-png_52491.jpg');
+}
+
+
+
+
+
+
+
