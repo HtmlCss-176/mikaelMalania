@@ -1,0 +1,18 @@
+/* #testThis::first-line {
+    color: blue;
+} */
+
+#testThis::first-letter {
+    color: blue;
+    font-size: 24px;
+}
+
+#testThis::before {
+    content: url('/pictures/Arrow1.png')
+}
+
+
+#testThis::after {
+    content: " After content";
+}
+
