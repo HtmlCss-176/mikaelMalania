@@ -1,0 +1,11 @@
+• დამატებითი პრეფიქსერები - autoprefixer css
+• Responsive პრაქტიკა (ჩვენ თვითონ ვაწყობთ დიზაინს)
+• css ცვლადები
+
+============
+https://autoprefixer.github.io/
+============
+
+============
+https://www.figma.com/file/brcEXdlpXjfXX7i1OG6phe/Designer-Portfolio-(Community)?node-id=106%3A2&mode=dev
+============
