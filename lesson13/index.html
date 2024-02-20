@@ -1,0 +1,64 @@
+<html>
+    <head>
+    </head>
+    <body>
+
+            <input placeholder="Enter your username:" id="username">
+            <br>
+            <br>
+            <input placeholder="Enter your password:" id="password">
+            <br>
+            <br>
+            <button type="submit" onclick="loginToSystem()">Log in</button>
+
+        <script type="text/javascript">
+            function loginToSystem() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                if (username === "admin" && password === "12345") {
+                    window.location.href = './loginSuccess.html';
+                } else {
+                    window.location.href = './loginFailed.html';
+                }
+
+            }
+        </script>
+
+        <!-- <script type="text/javascript">
+            var name = "James has book's that he bought from amazon"; // ეს გახლავთ სტრიქონული ტიპის მონაცემი, რადგანაც მნიშვნელობაში არსებული ინფორმაცია ბრჭყალებშია ჩასმული;
+            var surname = "Apaturai"; //  ეს გახლავთ სტრიქონული ტიპის მონაცემი, რადგანაც მნიშვნელობაში არსებული ინფორმაცია ბრჭყალებშია ჩასმული;
+            var age = 30; // ეს გახლავთ მთელი ტიპის მონაცემი, რომელზეც შეიძლება მათემატიკური მოქმედებები განხორციელდეს.
+            var totalStudentScoring = 94.45; // ეს გახლავთ, წილადური ტიპის მონაცემი, რომელზეც შეიძლება ასევე მათემატიკური მოქმედები განხორციელდეს. (წილადური რადგანაც, მას . წერტილი გააჩნიამ ანუ როგორც მთელი ისე წილადური ნაწილი.)
+
+            var english = 95;
+            var javascriptProgramming = 87;
+            var math = 73;
+
+            var examResults = (english + javascriptProgramming + math)/3;
+            // alert(name + " " +surname);
+            // alert("You are age of " + age + " And you got a score of " + examResults)  
+
+            var isShopOpen = true;
+            
+            if (isShopOpen === true) {
+                // alert("I can take some food from shop.");
+            } else if (isShopOpen === false) {
+                // alert("Shop is closed, so I can't take any food with me.");
+            }
+
+            if (examResults >= 90) { // თუ ეს ასეა მაშინ
+                alert("Congrats! you will receive a reward!");
+            } else if (examResults >= 85 && examResults <= 90) { // სხვა შემთხვევაში თუ ეს ასეა მაშინ
+                alert("Opps! you almost got a reward!");
+            } else if (examResults >= 50 && examResults < 85) { // სხვა შემთხვევაში თუ ეს ასეა მაშინ
+                alert("You passed but results are not good!")
+            }
+            else { // ნებისმიერ სხვა შემთხვევაში
+                alert("You failed, your score was not high enough, try better next time!")
+            }
+
+        </script> -->
+
+    </body>
+</html>
